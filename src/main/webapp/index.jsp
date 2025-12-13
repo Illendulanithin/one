@@ -16,6 +16,7 @@
             --primary: #0a2540;
             --accent: #00d4ff;
             --muted: #7a7a7a;
+            --hot: #ff4757;
             --card: #ffffff;
             --surface: #f6f9fc;
             --success: #28a745;
@@ -113,6 +114,7 @@
 
         nav.main-nav li a:hover {
             background: var(--surface);
+            color: var(--hot)
             color: var(--accent)
         }
 
